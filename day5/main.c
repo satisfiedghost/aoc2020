@@ -142,8 +142,7 @@ int main() {
   printf("max id: %zu", max_id);
   locate_missing(c);
 
-
-
+  fclose(fp);
   free(s_seats);
 
   return 0;
